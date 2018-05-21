@@ -1,0 +1,13 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node web app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Israel Morales <imoralescs@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
