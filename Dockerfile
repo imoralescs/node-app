@@ -19,4 +19,5 @@ RUN npm install
 COPY src /app
 
 EXPOSE 8080
-CMD [ "nodemon", "server.js" ]
+#CMD [ "nodemon", "server.js" ]
+CMD [ "nodemon", "./src/server.js" ]
